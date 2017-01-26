@@ -28,6 +28,6 @@ def encrypt(message, rot):
 
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     cipher = ''
-    for char in text:
+    for char in message:
         cipher = cipher + rotate_character(char,rot)
     return cipher
